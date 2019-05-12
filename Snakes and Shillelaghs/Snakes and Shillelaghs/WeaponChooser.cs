@@ -23,6 +23,8 @@ namespace Snakes_and_Shillelaghs
 
         private void picShillelagh_Click(object sender, EventArgs e)
         {
+            OrbStruct.level = frmInstructions.level;
+            LeprechaunStruct.color = "green";
             Weapons ActiveWeapon = new Weapons();
             ActiveWeapon.Declarations("shillelagh", "brown", (int)Damage.shillelagh); //constructors passing to method in weapons class
             damage = ActiveWeapon.damage;
@@ -55,10 +57,10 @@ namespace Snakes_and_Shillelaghs
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Random RandomnumGen = new Random();
+            
+Random RandomnumGen = new Random();
 
             intnum1 = RandomnumGen.Next(500, 5000);
-
             LeprechaunStruct.health = intnum1;
         }
 

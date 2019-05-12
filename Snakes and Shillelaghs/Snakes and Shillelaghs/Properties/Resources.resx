@@ -118,64 +118,82 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Trp-Sword-14226124129-v06" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Trp-Sword-14226124129-v06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="throwing-knives-clipart-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\throwing-knives-clipart-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="140329" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\140329.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="250px-Spell_IllusionDark" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\250px-Spell_IllusionDark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="239750293070212" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\239750293070212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ATLASSEED.3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ATLASSEED.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Copperhead-snake2720" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Copperhead-snake2720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="d5lakzp-77f8962a-32c6-401d-a3f5-1ffae3bed8b0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d5lakzp-77f8962a-32c6-401d-a3f5-1ffae3bed8b0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kisspng-light-desktop-wallpaper-glow-over-orb-png-5ab1452f30e607.7074078915215670232003" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-light-desktop-wallpaper-glow-over-orb-png-5ab1452f30e607.7074078915215670232003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="leppyclip2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\leppyclip2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="light-spot-orb-png-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="light_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\light-spot-orb-png-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="linear_gradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\linear_gradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="marbles-clipart-red-pencil-and-in-color-marbles-clipart-red-clipart-qXjLNq" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marbles-clipart-red-pencil-and-in-color-marbles-clipart-red-clipart-qXjLNq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pc5raky9i" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pc5raky9i.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SlimWarmBluemorphobutterfly-max-1mb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="gameover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SlimWarmBluemorphobutterfly-max-1mb.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="snakes-transparent-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\snakes-transparent-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trp-Sword-14226124129-v06.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yellow_burst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-light-desktop-wallpaper-glow-over-orb-png-5ab1452f30e607.7074078915215670232003.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snake2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Copperhead-snake2720.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unnamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="axe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\140329.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="knife" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\throwing-knives-clipart-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pc5raky9i" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pc5raky9i.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bird2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bird2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leppyclip2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leppyclip2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snakes-transparent-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bird3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bird3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="youwon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\youwon1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_over" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\239750293070212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1495750445Coins-Gold-PNG-Clip-Art" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1495750445Coins-Gold-PNG-Clip-Art.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\250px-Spell_IllusionDark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="linear_gradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\linear_gradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bird4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bird4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marbles-clipart-red-pencil-and-in-color-marbles-clipart-red-clipart-qXjLNq.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bird1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bird1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ATLASSEED.3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red_burst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d5lakzp-77f8962a-32c6-401d-a3f5-1ffae3bed8b0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScentedSingleFurseal-size_restricted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScentedSingleFurseal-size_restricted.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

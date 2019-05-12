@@ -41,20 +41,24 @@
             // 
             // btnAdvance
             // 
-            this.btnAdvance.Location = new System.Drawing.Point(130, 238);
+            this.btnAdvance.BackColor = System.Drawing.Color.LightCyan;
+            this.btnAdvance.Font = new System.Drawing.Font("Algerian", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdvance.ForeColor = System.Drawing.Color.DarkRed;
+            this.btnAdvance.Location = new System.Drawing.Point(42, 84);
             this.btnAdvance.Name = "btnAdvance";
-            this.btnAdvance.Size = new System.Drawing.Size(75, 23);
+            this.btnAdvance.Size = new System.Drawing.Size(255, 64);
             this.btnAdvance.TabIndex = 4;
             this.btnAdvance.Text = "Advance";
-            this.btnAdvance.UseVisualStyleBackColor = true;
+            this.btnAdvance.UseVisualStyleBackColor = false;
             this.btnAdvance.Visible = false;
             this.btnAdvance.Click += new System.EventHandler(this.btnAdvance_Click);
             // 
             // picKnife
             // 
-            this.picKnife.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources.throwing_knives_clipart_1;
+            this.picKnife.BackColor = System.Drawing.Color.Transparent;
+            this.picKnife.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources.knife;
             this.picKnife.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picKnife.Location = new System.Drawing.Point(173, 122);
+            this.picKnife.Location = new System.Drawing.Point(174, 125);
             this.picKnife.Name = "picKnife";
             this.picKnife.Size = new System.Drawing.Size(155, 110);
             this.picKnife.TabIndex = 3;
@@ -63,9 +67,9 @@
             // 
             // picAxe
             // 
-            this.picAxe.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources._140329;
+            this.picAxe.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources.axe;
             this.picAxe.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picAxe.Location = new System.Drawing.Point(12, 122);
+            this.picAxe.Location = new System.Drawing.Point(13, 125);
             this.picAxe.Name = "picAxe";
             this.picAxe.Size = new System.Drawing.Size(155, 110);
             this.picAxe.TabIndex = 2;
@@ -74,9 +78,9 @@
             // 
             // picSword
             // 
-            this.picSword.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources.Trp_Sword_14226124129_v06;
+            this.picSword.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources.sword;
             this.picSword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picSword.Location = new System.Drawing.Point(173, 12);
+            this.picSword.Location = new System.Drawing.Point(174, 15);
             this.picSword.Name = "picSword";
             this.picSword.Size = new System.Drawing.Size(155, 104);
             this.picSword.TabIndex = 1;
@@ -85,9 +89,10 @@
             // 
             // picShillelagh
             // 
+            this.picShillelagh.BackColor = System.Drawing.Color.Transparent;
             this.picShillelagh.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources.download;
             this.picShillelagh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picShillelagh.Location = new System.Drawing.Point(12, 12);
+            this.picShillelagh.Location = new System.Drawing.Point(13, 15);
             this.picShillelagh.Name = "picShillelagh";
             this.picShillelagh.Size = new System.Drawing.Size(155, 104);
             this.picShillelagh.TabIndex = 0;
@@ -98,7 +103,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(341, 272);
+            this.BackColor = System.Drawing.Color.DarkRed;
+            this.ClientSize = new System.Drawing.Size(341, 253);
             this.Controls.Add(this.btnAdvance);
             this.Controls.Add(this.picKnife);
             this.Controls.Add(this.picAxe);

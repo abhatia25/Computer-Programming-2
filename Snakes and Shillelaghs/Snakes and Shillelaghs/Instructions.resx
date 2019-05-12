@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblInstructions.Text" xml:space="preserve">
-    <value>Welcome to the game!
+    <value>
 
 You must first chose a weapon to use. Each weapon has a set damage amount but you don't know that amount when picking the weapon, so pick wisely. Once the game starts, the leprechaun will be assigned a random number as health. You must defeat this leprechaun, and even if you do that, there is no guarantee you will win, but hey, its worth a shot!
 

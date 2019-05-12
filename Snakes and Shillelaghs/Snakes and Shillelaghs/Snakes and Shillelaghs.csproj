@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Distraction.cs" />
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +58,9 @@
     <Compile Include="Level2.Designer.cs">
       <DependentUpon>Level2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Orb.cs" />
+    <Compile Include="SearchClass.cs" />
+    <Compile Include="SortClass.cs" />
     <Compile Include="WeaponChooser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +169,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\youwon1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bird1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bird2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bird3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bird4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1495750445Coins-Gold-PNG-Clip-Art.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScentedSingleFurseal-size_restricted.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

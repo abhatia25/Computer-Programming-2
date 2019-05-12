@@ -100,7 +100,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Snakes_and_Shillelaghs.Properties.Resources.ATLASSEED_3;
+            this.pictureBox1.Image = global::Snakes_and_Shillelaghs.Properties.Resources.orb;
             this.pictureBox1.Location = new System.Drawing.Point(291, 489);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(31, 31);
@@ -111,7 +111,7 @@
             // picOrb
             // 
             this.picOrb.BackColor = System.Drawing.Color.Transparent;
-            this.picOrb.Image = global::Snakes_and_Shillelaghs.Properties.Resources.ATLASSEED_3;
+            this.picOrb.Image = global::Snakes_and_Shillelaghs.Properties.Resources.orb;
             this.picOrb.Location = new System.Drawing.Point(291, 489);
             this.picOrb.Name = "picOrb";
             this.picOrb.Size = new System.Drawing.Size(31, 31);
@@ -135,7 +135,7 @@
             // picDeadSnake
             // 
             this.picDeadSnake.BackColor = System.Drawing.Color.Transparent;
-            this.picDeadSnake.Image = global::Snakes_and_Shillelaghs.Properties.Resources.snakes_transparent_blue;
+            this.picDeadSnake.Image = global::Snakes_and_Shillelaghs.Properties.Resources.snake;
             this.picDeadSnake.Location = new System.Drawing.Point(727, 561);
             this.picDeadSnake.Name = "picDeadSnake";
             this.picDeadSnake.Size = new System.Drawing.Size(232, 33);
@@ -147,7 +147,7 @@
             // picLiveSnake
             // 
             this.picLiveSnake.BackColor = System.Drawing.Color.Transparent;
-            this.picLiveSnake.Image = global::Snakes_and_Shillelaghs.Properties.Resources.snakes_transparent_blue;
+            this.picLiveSnake.Image = global::Snakes_and_Shillelaghs.Properties.Resources.snake;
             this.picLiveSnake.Location = new System.Drawing.Point(775, 419);
             this.picLiveSnake.Name = "picLiveSnake";
             this.picLiveSnake.Size = new System.Drawing.Size(143, 176);
@@ -165,6 +165,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
@@ -181,7 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources._1;
+            this.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(961, 599);
             this.Controls.Add(this.pictureBox1);

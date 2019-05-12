@@ -63,9 +63,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1 {
+        internal static System.Drawing.Bitmap _1495750445Coins_Gold_PNG_Clip_Art {
             get {
-                object obj = ResourceManager.GetObject("1", resourceCulture);
+                object obj = ResourceManager.GetObject("1495750445Coins-Gold-PNG-Clip-Art", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _140329 {
+        internal static System.Drawing.Bitmap axe {
             get {
-                object obj = ResourceManager.GetObject("140329", resourceCulture);
+                object obj = ResourceManager.GetObject("axe", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _239750293070212 {
+        internal static System.Drawing.Bitmap background {
             get {
-                object obj = ResourceManager.GetObject("239750293070212", resourceCulture);
+                object obj = ResourceManager.GetObject("background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _250px_Spell_IllusionDark {
+        internal static System.Drawing.Bitmap bird1 {
             get {
-                object obj = ResourceManager.GetObject("250px-Spell_IllusionDark", resourceCulture);
+                object obj = ResourceManager.GetObject("bird1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ATLASSEED_3 {
+        internal static System.Drawing.Bitmap bird2 {
             get {
-                object obj = ResourceManager.GetObject("ATLASSEED.3", resourceCulture);
+                object obj = ResourceManager.GetObject("bird2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Copperhead_snake2720 {
+        internal static System.Drawing.Bitmap bird3 {
             get {
-                object obj = ResourceManager.GetObject("Copperhead-snake2720", resourceCulture);
+                object obj = ResourceManager.GetObject("bird3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap d5lakzp_77f8962a_32c6_401d_a3f5_1ffae3bed8b0 {
+        internal static System.Drawing.Bitmap bird4 {
             get {
-                object obj = ResourceManager.GetObject("d5lakzp-77f8962a-32c6-401d-a3f5-1ffae3bed8b0", resourceCulture);
+                object obj = ResourceManager.GetObject("bird4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,10 +143,29 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap kisspng_light_desktop_wallpaper_glow_over_orb_png_5ab1452f30e607_7074078915215670232003 {
+        internal static System.Drawing.Bitmap game_over {
             get {
-                object obj = ResourceManager.GetObject("kisspng-light-desktop-wallpaper-glow-over-orb-png-5ab1452f30e607.7074078915215670" +
-                        "232003", resourceCulture);
+                object obj = ResourceManager.GetObject("game_over", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gameover {
+            get {
+                object obj = ResourceManager.GetObject("gameover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap knife {
+            get {
+                object obj = ResourceManager.GetObject("knife", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -164,9 +183,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap light_spot_orb_png_8 {
+        internal static System.Drawing.Bitmap light_orb {
             get {
-                object obj = ResourceManager.GetObject("light-spot-orb-png-8", resourceCulture);
+                object obj = ResourceManager.GetObject("light_orb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -184,9 +203,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap marbles_clipart_red_pencil_and_in_color_marbles_clipart_red_clipart_qXjLNq {
+        internal static System.Drawing.Bitmap orb {
             get {
-                object obj = ResourceManager.GetObject("marbles-clipart-red-pencil-and-in-color-marbles-clipart-red-clipart-qXjLNq", resourceCulture);
+                object obj = ResourceManager.GetObject("orb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -204,9 +223,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SlimWarmBluemorphobutterfly_max_1mb {
+        internal static System.Drawing.Bitmap red_burst {
             get {
-                object obj = ResourceManager.GetObject("SlimWarmBluemorphobutterfly-max-1mb", resourceCulture);
+                object obj = ResourceManager.GetObject("red_burst", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -214,9 +233,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap snakes_transparent_blue {
+        internal static System.Drawing.Bitmap red_orb {
             get {
-                object obj = ResourceManager.GetObject("snakes-transparent-blue", resourceCulture);
+                object obj = ResourceManager.GetObject("red_orb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -224,9 +243,9 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap throwing_knives_clipart_1 {
+        internal static System.Drawing.Bitmap ScentedSingleFurseal_size_restricted {
             get {
-                object obj = ResourceManager.GetObject("throwing-knives-clipart-1", resourceCulture);
+                object obj = ResourceManager.GetObject("ScentedSingleFurseal-size_restricted", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -234,9 +253,39 @@ namespace Snakes_and_Shillelaghs.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Trp_Sword_14226124129_v06 {
+        internal static System.Drawing.Bitmap snake {
             get {
-                object obj = ResourceManager.GetObject("Trp-Sword-14226124129-v06", resourceCulture);
+                object obj = ResourceManager.GetObject("snake", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap snake2 {
+            get {
+                object obj = ResourceManager.GetObject("snake2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap spell {
+            get {
+                object obj = ResourceManager.GetObject("spell", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sword {
+            get {
+                object obj = ResourceManager.GetObject("sword", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -247,6 +296,16 @@ namespace Snakes_and_Shillelaghs.Properties {
         internal static System.Drawing.Bitmap unnamed {
             get {
                 object obj = ResourceManager.GetObject("unnamed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yellow_burst {
+            get {
+                object obj = ResourceManager.GetObject("yellow_burst", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

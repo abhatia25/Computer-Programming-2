@@ -44,6 +44,15 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.picDistraction1 = new System.Windows.Forms.PictureBox();
+            this.lblDistraction = new System.Windows.Forms.Label();
+            this.timer4 = new System.Windows.Forms.Timer(this.components);
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.picGold = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picGameOver)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSnakeOrb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,13 +62,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLiveSnake)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDistraction1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGold)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // picGameOver
             // 
             this.picGameOver.BackColor = System.Drawing.Color.Transparent;
             this.picGameOver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.picGameOver.Image = global::Snakes_and_Shillelaghs.Properties.Resources.SlimWarmBluemorphobutterfly_max_1mb;
+            this.picGameOver.Image = global::Snakes_and_Shillelaghs.Properties.Resources.gameover;
             this.picGameOver.Location = new System.Drawing.Point(237, 53);
             this.picGameOver.Name = "picGameOver";
             this.picGameOver.Size = new System.Drawing.Size(461, 277);
@@ -88,7 +100,7 @@
             // picSnakeOrb
             // 
             this.picSnakeOrb.BackColor = System.Drawing.Color.Transparent;
-            this.picSnakeOrb.Image = global::Snakes_and_Shillelaghs.Properties.Resources.marbles_clipart_red_pencil_and_in_color_marbles_clipart_red_clipart_qXjLNq;
+            this.picSnakeOrb.Image = global::Snakes_and_Shillelaghs.Properties.Resources.red_orb;
             this.picSnakeOrb.Location = new System.Drawing.Point(688, 402);
             this.picSnakeOrb.Name = "picSnakeOrb";
             this.picSnakeOrb.Size = new System.Drawing.Size(28, 24);
@@ -100,7 +112,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Snakes_and_Shillelaghs.Properties.Resources.ATLASSEED_3;
+            this.pictureBox1.Image = global::Snakes_and_Shillelaghs.Properties.Resources.orb;
             this.pictureBox1.Location = new System.Drawing.Point(291, 482);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(31, 31);
@@ -111,7 +123,7 @@
             // picOrb
             // 
             this.picOrb.BackColor = System.Drawing.Color.Transparent;
-            this.picOrb.Image = global::Snakes_and_Shillelaghs.Properties.Resources.ATLASSEED_3;
+            this.picOrb.Image = global::Snakes_and_Shillelaghs.Properties.Resources.orb;
             this.picOrb.Location = new System.Drawing.Point(291, 482);
             this.picOrb.Name = "picOrb";
             this.picOrb.Size = new System.Drawing.Size(31, 31);
@@ -178,7 +190,7 @@
             // picDeadSnake
             // 
             this.picDeadSnake.BackColor = System.Drawing.Color.Transparent;
-            this.picDeadSnake.Image = global::Snakes_and_Shillelaghs.Properties.Resources.snakes_transparent_blue;
+            this.picDeadSnake.Image = global::Snakes_and_Shillelaghs.Properties.Resources.snake;
             this.picDeadSnake.Location = new System.Drawing.Point(608, 548);
             this.picDeadSnake.Name = "picDeadSnake";
             this.picDeadSnake.Size = new System.Drawing.Size(366, 38);
@@ -190,7 +202,7 @@
             // picLiveSnake
             // 
             this.picLiveSnake.BackColor = System.Drawing.Color.Transparent;
-            this.picLiveSnake.Image = global::Snakes_and_Shillelaghs.Properties.Resources.snakes_transparent_blue;
+            this.picLiveSnake.Image = global::Snakes_and_Shillelaghs.Properties.Resources.snake;
             this.picLiveSnake.Location = new System.Drawing.Point(656, 272);
             this.picLiveSnake.Name = "picLiveSnake";
             this.picLiveSnake.Size = new System.Drawing.Size(277, 315);
@@ -208,6 +220,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 26;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
@@ -229,13 +242,112 @@
             this.timer2.Interval = 300;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick_1);
             // 
+            // timer3
+            // 
+            this.timer3.Interval = 3000;
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
+            // picDistraction1
+            // 
+            this.picDistraction1.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources.bird1;
+            this.picDistraction1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.picDistraction1.Location = new System.Drawing.Point(716, 93);
+            this.picDistraction1.Name = "picDistraction1";
+            this.picDistraction1.Size = new System.Drawing.Size(137, 119);
+            this.picDistraction1.TabIndex = 37;
+            this.picDistraction1.TabStop = false;
+            this.picDistraction1.Visible = false;
+            // 
+            // lblDistraction
+            // 
+            this.lblDistraction.BackColor = System.Drawing.Color.Transparent;
+            this.lblDistraction.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDistraction.ForeColor = System.Drawing.Color.DarkRed;
+            this.lblDistraction.Location = new System.Drawing.Point(716, 237);
+            this.lblDistraction.Name = "lblDistraction";
+            this.lblDistraction.Size = new System.Drawing.Size(137, 18);
+            this.lblDistraction.TabIndex = 38;
+            this.lblDistraction.Text = "Distraction!";
+            this.lblDistraction.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDistraction.Visible = false;
+            // 
+            // timer4
+            // 
+            this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(503, 393);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(113, 20);
+            this.textBox1.TabIndex = 39;
+            this.textBox1.Visible = false;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkRed;
+            this.label1.Location = new System.Drawing.Point(366, 393);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(131, 45);
+            this.label1.TabIndex = 40;
+            this.label1.Text = "Enter your magic number:";
+            this.label1.Visible = false;
+            // 
+            // picGold
+            // 
+            this.picGold.BackColor = System.Drawing.Color.Transparent;
+            this.picGold.Image = global::Snakes_and_Shillelaghs.Properties.Resources._1495750445Coins_Gold_PNG_Clip_Art;
+            this.picGold.Location = new System.Drawing.Point(237, 12);
+            this.picGold.Name = "picGold";
+            this.picGold.Size = new System.Drawing.Size(473, 373);
+            this.picGold.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picGold.TabIndex = 41;
+            this.picGold.TabStop = false;
+            this.picGold.Visible = false;
+            this.picGold.Click += new System.EventHandler(this.picGold_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightCyan;
+            this.button1.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.DarkRed;
+            this.button1.Location = new System.Drawing.Point(503, 419);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 30);
+            this.button1.TabIndex = 42;
+            this.button1.Text = "Enter";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::Snakes_and_Shillelaghs.Properties.Resources.ScentedSingleFurseal_size_restricted;
+            this.pictureBox4.Location = new System.Drawing.Point(320, 391);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(330, 122);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 44;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Visible = false;
+            // 
             // frmLevel2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources._1;
+            this.BackgroundImage = global::Snakes_and_Shillelaghs.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(976, 591);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.picGold);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblDistraction);
+            this.Controls.Add(this.picDistraction1);
             this.Controls.Add(this.picGameOver);
             this.Controls.Add(this.pgbLeprechaunLife);
             this.Controls.Add(this.picSnakeOrb);
@@ -251,6 +363,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Name = "frmLevel2";
             this.Text = "Level2";
+            this.Load += new System.EventHandler(this.frmLevel2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picGameOver)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSnakeOrb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -260,7 +373,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLiveSnake)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDistraction1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGold)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -281,5 +398,14 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
+        public System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.PictureBox picDistraction1;
+        private System.Windows.Forms.Label lblDistraction;
+        private System.Windows.Forms.Timer timer4;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox picGold;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
