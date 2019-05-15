@@ -166,7 +166,19 @@ namespace Mastermind
 
         private void setToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                strPin = Microsoft.VisualBasic.Interaction.InputBox("4 Digit Number", "Set Code");
+                strPin = strPin.Substring(0, 4);
+                Int32.TryParse(Convert.ToString(strPin[0]), out pinNumb1);
+                Int32.TryParse(Convert.ToString(strPin[1]), out pinNumb2);
+                Int32.TryParse(Convert.ToString(strPin[2]), out pinNumb3);
+                Int32.TryParse(Convert.ToString(strPin[3]), out pinNumb4);
+            }
+            catch
+            {
+                MessageBox.Show("Please make sure your pin is a 4 digit integer");
+            }
         }
 
         private void peekToolStripMenuItem_Click(object sender, EventArgs e)
