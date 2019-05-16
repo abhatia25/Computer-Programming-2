@@ -25,6 +25,10 @@ namespace Mastermind
         public static int nearby = 0;
         public static int game = 1;
         public static int totalGuesses = 0;
+        public static DateTime now;
+        public static int gamesSolved = 0;
+        public static int average;
+        public static string strAverage;
 
         public frmMasterMind()
         {
@@ -100,6 +104,7 @@ namespace Mastermind
             if (rightOn == 4)
             {
                 MessageBox.Show("You win! Go to options, new to start a new game.");
+                gamesSolved++;
             }
         }
 
@@ -145,8 +150,8 @@ namespace Mastermind
 
         private void showToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            int average = 0;
-            string strAverage = "";
+            average = 0;
+            strAverage = "";
             try
             {
                 average = totalGuesses / (game - 1);
@@ -156,7 +161,7 @@ namespace Mastermind
             {
                 strAverage = "NaN";
             }
-            lbxOutput.Items.Add((game - 1).ToString() + " games. " + totalGuesses + " total guesses. " + strAverage + " average.");
+            UpdateStats();
         }
 
         private void clearToolStripMenuItem_Click(object sender, EventArgs e)
@@ -194,6 +199,7 @@ namespace Mastermind
         private void frmMasterMind_Load(object sender, EventArgs e)
         {
             Reset();
+            now = DateTime.Now;
         }
 
         private void cmbNumber4_SelectedIndexChanged(object sender, EventArgs e)
@@ -253,6 +259,21 @@ namespace Mastermind
             lblNumber2.Text = "?";
             lblNumber3.Text = "?";
             lblNumber4.Text = "?";
+        }
+
+        private void UpdateStats()
+        {
+            string fName = Environment.GetFolderPath(Environment.SpecialFolder.Personal) + "\\TEST\\data08.txt";
+            FileStream fs = new FileStream(fName, FileMode.OpenOrCreate, FileAccess.Write, FileShare.None);
+            byte[] bText = System.Text.Encoding.ASCII.GetBytes("Name: " + name + "\n" + " Total Games: " + game.ToString() + "\n" + " Games Solved: " + gamesSolved.ToString() + "\n" + " Total Guesses: " + totalGuesses.ToString() + "\n" + " Average Guesses: " + strAverage + "\n" + " Date of First Attempt: " + now.ToString());
+            fs.Write(bText, 0, bText.Length);
+            fs.Close();
+
+            FileStream fs1 = new FileStream(fName, FileMode.Open, FileAccess.Read, FileShare.None);
+            byte[] bText1 = new byte[fs1.Length];
+            fs1.Read(bText1, 0, bText1.Length);
+            lbxOutput.Items.Add(System.Text.Encoding.ASCII.GetString(bText));
+            fs1.Close();
         }
     }
 }
