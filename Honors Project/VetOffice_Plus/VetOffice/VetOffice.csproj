@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="TJSLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\TJSLibraryx\TJSLibrary\TJSLibrary\bin\Release\TJSLibrary.dll</HintPath>
+      <HintPath>..\TJSLibrary.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

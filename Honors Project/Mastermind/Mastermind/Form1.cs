@@ -135,6 +135,7 @@ namespace Mastermind
             pinNumb4 = 0;
             strPin = "";
             ResetTrials();
+            lbxOutput.HorizontalScrollbar = true;
             MessageBox.Show("Hello Player 1 aka(" + name + "), I hope you are well today.");
             lbxOutput.Items.Add("Game " + game.ToString());
             Random rnd = new Random();
@@ -225,6 +226,7 @@ namespace Mastermind
         private void Reset()
         {
             name = "Hal";
+            lbxOutput.HorizontalScrollbar = true;
             guess = 0;
             game = 1;
             rightOn = 0;

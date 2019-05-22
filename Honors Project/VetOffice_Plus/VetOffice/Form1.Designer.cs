@@ -59,7 +59,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(892, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1024, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -91,7 +91,7 @@
             // ageClients1HYrToolStripMenuItem
             // 
             this.ageClients1HYrToolStripMenuItem.Name = "ageClients1HYrToolStripMenuItem";
-            this.ageClients1HYrToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.ageClients1HYrToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.ageClients1HYrToolStripMenuItem.Tag = "1";
             this.ageClients1HYrToolStripMenuItem.Text = "Age Clients 1 H-Yr";
             this.ageClients1HYrToolStripMenuItem.Click += new System.EventHandler(this.ageClients1HYrToolStripMenuItem_Click);
@@ -99,7 +99,7 @@
             // ageClients2HYrToolStripMenuItem
             // 
             this.ageClients2HYrToolStripMenuItem.Name = "ageClients2HYrToolStripMenuItem";
-            this.ageClients2HYrToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.ageClients2HYrToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.ageClients2HYrToolStripMenuItem.Tag = "2";
             this.ageClients2HYrToolStripMenuItem.Text = "Age Clients 2 H-Yr";
             this.ageClients2HYrToolStripMenuItem.Click += new System.EventHandler(this.ageClients2HYrToolStripMenuItem_Click);
@@ -107,7 +107,7 @@
             // ageClients3HYrToolStripMenuItem
             // 
             this.ageClients3HYrToolStripMenuItem.Name = "ageClients3HYrToolStripMenuItem";
-            this.ageClients3HYrToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.ageClients3HYrToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.ageClients3HYrToolStripMenuItem.Tag = "3";
             this.ageClients3HYrToolStripMenuItem.Text = "Age Clients 3 H-Yr";
             this.ageClients3HYrToolStripMenuItem.Click += new System.EventHandler(this.ageClients3HYrToolStripMenuItem_Click);
@@ -178,6 +178,7 @@
             // listBox1
             // 
             this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.listBox1.ColumnWidth = 1;
             this.listBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 19;
@@ -257,7 +258,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(892, 608);
+            this.ClientSize = new System.Drawing.Size(1024, 608);
             this.Controls.Add(this.lblPrompt);
             this.Controls.Add(this.txtBox1);
             this.Controls.Add(this.btnLookUp);
@@ -273,6 +274,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Doing Animals";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
