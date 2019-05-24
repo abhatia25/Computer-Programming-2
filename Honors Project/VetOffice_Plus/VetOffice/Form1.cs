@@ -35,7 +35,7 @@ namespace VetOffice
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("T J Stecker - 11/20/13 - R1.0 Animal Tester");
+            MessageBox.Show("Aditya Bhatia and Kristin Wendorf - 05/28/19 - R1.0 Animal Tester");
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -70,7 +70,7 @@ namespace VetOffice
                                        //at bottom of listing is a method which generates a +20 ID based on the array index, use it instead if you want.
 
             int c = MAX;
-            a[c] = new Animal(ID, "Pat", 0, 0, 1.75, DateTime.Parse("05/24/2019"));
+            a[c] = new Animal(ID, "Pat", 0, 0, 1.75, DateTime.Today);
             ID = genID(IDStart, ++MAX);
 
             int d = MAX;
@@ -102,7 +102,7 @@ namespace VetOffice
             a[i].hlpAnimalGender(3);
             
             int g = MAX;
-            a[g] = new Animal(ID, "Goldie", 0, 2, 0.1, DateTime.Parse("05/24/2019"));
+            a[g] = new Animal(ID, "Goldie", 0, 2, 0.1, DateTime.Today);
             ID = genID(IDStart, ++MAX);
             //this code does not work currently
             int h = MAX;
@@ -148,6 +148,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ab].Name = t.ToString();
                         a[ab].updWeight(0.1);
+                        a[ab].updType(0);
+                        a[ab].updBDay(DateTime.Today);
                         break;
                     case 2:
                         int ac = MAX;
@@ -155,6 +157,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ac].Name = t.ToString();
                         a[ac].updWeight(0.1);
+                        a[ac].updType(0);
+                        a[ac].updBDay(DateTime.Today);
                         break;
                     case 3:
                         int ad = MAX;
@@ -162,6 +166,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ad].Name = t.ToString();
                         a[ad].updWeight(0.1);
+                        a[ad].updType(0);
+                        a[ad].updBDay(DateTime.Today);
                         break;
                     case 4:
                         int ae = MAX;
@@ -169,6 +175,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ae].Name = t.ToString();
                         a[ae].updWeight(0.1);
+                        a[ae].updType(0);
+                        a[ae].updBDay(DateTime.Today);
                         break;
                     case 5:
                         int af = MAX;
@@ -176,6 +184,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[af].Name = t.ToString();
                         a[af].updWeight(0.1);
+                        a[af].updType(0);
+                        a[af].updBDay(DateTime.Today);
                         break;
                     case 6:
                         int ag = MAX;
@@ -183,6 +193,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ag].Name = t.ToString();
                         a[ag].updWeight(0.1);
+                        a[ag].updType(0);
+                        a[ag].updBDay(DateTime.Today);
                         break;
                     case 7:
                         int ah = MAX;
@@ -190,6 +202,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ah].Name = t.ToString();
                         a[ah].updWeight(0.1);
+                        a[ah].updType(0);
+                        a[ah].updBDay(DateTime.Today);
                         break;
                     case 8:
                         int ak = MAX;
@@ -197,6 +211,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ak].Name = t.ToString();
                         a[ak].updWeight(0.1);
+                        a[ak].updType(0);
+                        a[ak].updBDay(DateTime.Today);
                         break;
                     case 9:
                         int ahk = MAX;
@@ -204,6 +220,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ahk].Name = t.ToString();
                         a[ahk].updWeight(0.1);
+                        a[ahk].updType(0);
+                        a[ahk].updBDay(DateTime.Today);
                         break;
                     case 10:
                         int ahh = MAX;
@@ -211,6 +229,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ahh].Name = t.ToString();
                         a[ahh].updWeight(0.1);
+                        a[ahh].updType(0);
+                        a[ahh].updBDay(DateTime.Today);
                         break;
                     case 11:
                         int ahy = MAX;
@@ -218,6 +238,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ahy].Name = t.ToString();
                         a[ahy].updWeight(0.1);
+                        a[ahy].updType(0);
+                        a[ahy].updBDay(DateTime.Today);
                         break;
                     case 12:
                         int ahp = MAX;
@@ -225,6 +247,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ahp].Name = t.ToString();
                         a[ahp].updWeight(0.1);
+                        a[ahp].updType(0);
+                        a[ahp].updBDay(DateTime.Today);
                         break;
                     case 13:
                         int aht = MAX;
@@ -232,6 +256,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[aht].Name = t.ToString();
                         a[aht].updWeight(0.1);
+                        a[aht].updType(0);
+                        a[aht].updBDay(DateTime.Today);
                         break;
                     case 14:
                         int ahw = MAX;
@@ -239,6 +265,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ahw].Name = t.ToString();
                         a[ahw].updWeight(0.1);
+                        a[ahw].updType(0);
+                        a[ahw].updBDay(DateTime.Today);
                         break;
                     case 15:
                         int aha = MAX;
@@ -246,6 +274,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[aha].Name = t.ToString();
                         a[aha].updWeight(0.1);
+                        a[aha].updType(0);
+                        a[aha].updBDay(DateTime.Today);
                         break;
                     case 16:
                         int ahr = MAX;
@@ -253,6 +283,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ahr].Name = t.ToString();
                         a[ahr].updWeight(0.1);
+                        a[ahr].updType(0);
+                        a[ahr].updBDay(DateTime.Today);
                         break;
                     case 17:
                         int ahq = MAX;
@@ -260,6 +292,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ahq].Name = t.ToString();
                         a[ahq].updWeight(0.1);
+                        a[ahq].updType(0);
+                        a[ahq].updBDay(DateTime.Today);
                         break;
                     case 0:
                         int ai = MAX;
@@ -267,6 +301,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[ai].Name = t.ToString();
                         a[ai].updWeight(0.1);
+                        a[ai].updType(0);
+                        a[ai].updBDay(DateTime.Today);
                         break;
                     default:
                         int aj = MAX;
@@ -274,6 +310,8 @@ namespace VetOffice
                         ID = genID(IDStart, ++MAX);
                         a[aj].Name = t.ToString();
                         a[aj].updWeight(0.1);
+                        a[aj].updType(0);
+                        a[aj].updBDay(DateTime.Today);
                         break;
                 }
                 j++;
